@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Barcode Scanner</string>
+    <string-array name="list_options">
+        <item>Delete</item>
+        <item>Open with</item>
+    </string-array>
+</resources>
