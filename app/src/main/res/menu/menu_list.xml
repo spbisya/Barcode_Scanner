@@ -2,10 +2,16 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/clear"
-        android:icon="@drawable/ic_clear_all_white_48dp"
-        app:showAsAction="ifRoom"
-        android:title="Clear all">
+        android:id="@+id/capture"
+        android:icon="@drawable/ic_camera_white_48dp"
+        app:showAsAction="always"
+        android:title="Scan">
     </item>
+    <item
+    android:id="@+id/clear"
+    android:icon="@drawable/ic_clear_all_white_48dp"
+    app:showAsAction="ifRoom"
+    android:title="Clear all">
+</item>
 
 </menu>
